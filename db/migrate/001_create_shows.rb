@@ -1,5 +1,6 @@
 class CreateShows < ActiveRecord::Migration[5.2]
 
   def change
-  end 
+    create_table :shows
+  end
 end
